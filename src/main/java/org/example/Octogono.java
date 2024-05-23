@@ -3,6 +3,8 @@ package org.example;
 public class Octogono extends FigurasGeometricas{
     double longitudLado;
     double apotema;
+    double perimetro;
+    double area;
     public Octogono(){}
 
     public Octogono(String nombre, int nlados, double longitudLado, double apotema) {
@@ -27,8 +29,8 @@ public class Octogono extends FigurasGeometricas{
         this.apotema = apotema;
     }
 
-    public double calcularPerimetro{
-
+    public double calcularPerimetro(){
+        return perimetro;
     }
     public double calcularArea(){
 

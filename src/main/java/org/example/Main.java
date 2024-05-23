@@ -41,18 +41,19 @@ public class Main {
         System.out.println(miFigura4.getNombre());
 
         System.out.println("El ancho de la piscina es:");
-        miFigura4.setAncho(15.00);
+        miFigura4.setAncho(10.00);
         System.out.println(miFigura4.getAncho());
         System.out.println("El largo de la piscina es:");
-        miFigura4.setLargo(35.00);
+        miFigura4.setLargo(25.00);
         System.out.println(miFigura4.getLargo());
 
-        System.out.println("Su area es:");
+        System.out.println("Su aréa es:");
         System.out.println(miFigura4.calcularArea());
         //ESTE ES PRIMER CAMBIO
         ///OAAA
         ///AAAAA
         //RESPENTEN MI CÓDIGO
+
 
 
 
